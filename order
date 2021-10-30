@@ -1,0 +1,2 @@
+choice = input("Do you want a burger or a slice of pizza?");
+return choice * 5;
