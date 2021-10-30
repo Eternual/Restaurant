@@ -1,2 +1,9 @@
+price = 0
 choice = input("Do you want a burger or a slice of pizza?");
-return choice * 5;
+
+if choice == burger:
+  price = "$5";
+if choice == pizza:
+  price = "$3";
+
+return price;
